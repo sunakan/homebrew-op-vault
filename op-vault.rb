@@ -10,7 +10,7 @@ class OpVault < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/sunakan/op-vault/releases/download/v0.1.0/op-vault_darwin_arm64.tar.gz"
-    sha256 "04e00571286b8609e359787a96f957160bd97c74253d9b86c0848d4bef540f32"
+    sha256 "9c7b38acb1e5da9ce20a939e7e9a46a2d9ebab71f079fba685998d0c86825d0a"
 
     define_method(:install) do
       bin.install "op-vault"
