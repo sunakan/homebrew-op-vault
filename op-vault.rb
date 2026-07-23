@@ -5,12 +5,12 @@
 class OpVault < Formula
   desc "Cache op:// secrets in macOS Keychain"
   homepage "https://github.com/sunakan/op-vault"
-  version "0.3.1"
+  version "0.4.0"
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/sunakan/op-vault/releases/download/v0.3.1/op-vault_darwin_arm64.tar.gz"
-    sha256 "ac2dd68bee4b9f0b5c2d45a57c1244b2fa0adb4582df83dbf9169234682fb7d4"
+    url "https://github.com/sunakan/op-vault/releases/download/v0.4.0/op-vault_darwin_arm64.tar.gz"
+    sha256 "d53a4c006de8576909d4516cd8ea2d68366b789ed3eb460e2815ad387a5be8aa"
 
     define_method(:install) do
       bin.install "op-vault"
